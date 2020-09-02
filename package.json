@@ -19,12 +19,9 @@
         {
           "releaseRules": [
             {
-              "breaking": true,
+              "type": "breaking",
+              "subject": "BREAKING CHANGE",
               "release": "major"
-            },
-            {
-              "revert": true,
-              "release": "patch"
             }
           ]
         }
