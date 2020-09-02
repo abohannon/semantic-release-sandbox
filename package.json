@@ -8,13 +8,14 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^4.4.0"
+  },
   "release": {
     "branches": [
       "production"
     ],
     "plugins": [
-      "conventional-changelog-conventionalcommits",
       [
         "@semantic-release/commit-analyzer",
         {
