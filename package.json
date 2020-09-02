@@ -17,17 +17,14 @@
           "releaseRules": [
             {
               "type": "MAJOR",
-              "subject": "Major Release",
               "release": "major"
             },
             {
               "type": "MINOR",
-              "subject": "Minor Release",
               "release": "minor"
             },
             {
               "type": "PATCH",
-              "subject": "Patch Release",
               "release": "patch"
             }
           ]
