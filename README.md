@@ -17,5 +17,3 @@ breaking change
 breaking change 2
 breaking change 3
 breaking change 4
-vreaking change 5
-break
