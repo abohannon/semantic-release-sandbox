@@ -16,18 +16,18 @@
         {
           "releaseRules": [
             {
-              "tag": "MAJOR",
-              "message": "Major Release",
+              "type": "MAJOR",
+              "subject": "Major Release",
               "release": "major"
             },
             {
-              "tag": "MINOR",
-              "message": "Minor Release",
+              "type": "MINOR",
+              "subject": "Minor Release",
               "release": "minor"
             },
             {
-              "tag": "PATCH",
-              "message": "Patch Release",
+              "type": "PATCH",
+              "subject": "Patch Release",
               "release": "patch"
             }
           ]
