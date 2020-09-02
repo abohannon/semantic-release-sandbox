@@ -11,7 +11,29 @@
   "dependencies": {},
   "release": {
     "plugins": [
-      "@semantic-release/commit-analyzer",
+      [
+        "@semantic-release/commit-analyzer",
+        {
+          "preset": "eslint",
+          "releaseRules": [
+            {
+              "tag": "MAJOR",
+              "message": "Major Release",
+              "release": "major"
+            },
+            {
+              "tag": "MINOR",
+              "message": "Minor Release",
+              "release": "minor"
+            },
+            {
+              "tag": "PATCH",
+              "message": "Patch Release",
+              "release": "patch"
+            }
+          ]
+        }
+      ],
       "@semantic-release/release-notes-generator",
       "@semantic-release/github"
     ]
