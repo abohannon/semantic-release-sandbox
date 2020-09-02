@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {},
   "release": {
+    "branches": [
+      "production"
+    ],
     "plugins": [
       [
         "@semantic-release/commit-analyzer",
