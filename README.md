@@ -7,3 +7,4 @@ major
 new branch
 feature
 change
+change
