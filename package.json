@@ -8,5 +8,10 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "release": {
+    "branches": [
+      "production"
+    ]
+  }
 }
