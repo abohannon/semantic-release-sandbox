@@ -21,6 +21,14 @@
             {
               "type": "breaking",
               "release": "major"
+            },
+            {
+              "subject": "BREAKING CHANGE",
+              "release": "major"
+            },
+            {
+              "subject": "BREAKING CHANGES",
+              "release": "major"
             }
           ]
         }
