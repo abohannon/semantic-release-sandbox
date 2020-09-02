@@ -5,3 +5,4 @@ Major
 bugfix
 major
 new branch
+feature
